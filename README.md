@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Install Extention
+
+To install that extension you need to run `npm run build` it's create a  **build** folder in root directory.
+
+Now go to the [chrome://extensions/] and activate a *Developer mode* in the the top-right corner of the page. 
+
+Click a *Load unpacked* button and select a **build** in the root directory.
+
+Now extension is installed.
 ## Available Scripts
 
 In the project directory, you can run:

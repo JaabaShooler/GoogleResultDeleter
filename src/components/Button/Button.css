@@ -1,0 +1,36 @@
+.button {
+  width: 200px;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #ff5454;
+  color: #fff;
+
+  transition: all 0.3s;
+  cursor: pointer;
+  transform: scale(1);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.button:hover {
+  color: #1f1f1f;
+  background: #c92020;
+}
+
+.button:active {
+  transform: scale(0.7);
+}
+
+.button:active:disabled {
+  transform: scale(1);
+}
+
+.button:disabled {
+  background: #eaecee;
+  color: #6c6e74;
+  cursor: not-allowed;
+}
